@@ -1,0 +1,23 @@
+<html>
+    <head></head>
+    <body>
+        <input type="radio" name="n1" value="Male">Male 
+        <input type="radio" name="n1" value="Female">Female<br>
+        <input type="submit" onclick="show">
+    </body>
+
+<script>
+    let red=document.getElementsByName('n1')
+    function show() {
+        red.forEach((item,index)=>
+        {
+            if(item.checked==true){
+                console.log(item,value);
+            }
+        })
+    }
+</script>
+
+</html>
+
+   
